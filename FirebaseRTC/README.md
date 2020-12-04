@@ -8,7 +8,7 @@ to use Firebase Cloudstore for signalling in a WebRTC video chat application.
 See http://webrtc.org for details.
 
 ## How to run
-1. Modify .firebaserc.json to your project
+1. Modify .firebaserc to your project
 2. Enable Firestore API in Firebase console
 3. `firebase serve`
 
