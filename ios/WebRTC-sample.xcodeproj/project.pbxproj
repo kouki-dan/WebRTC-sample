@@ -3,13 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		38BA63BDD8EC1D15F57B2313 /* Pods_WebRTC_sample_WebRTC_sampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99D6447832542D4B754F28B2 /* Pods_WebRTC_sample_WebRTC_sampleUITests.framework */; };
 		9DD486D42CE7B09DB1F8244C /* Pods_WebRTC_sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACAD5DE97A00A7236A0F9025 /* Pods_WebRTC_sample.framework */; };
 		EB070592EAECF66E9BD47059 /* Pods_WebRTC_sampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D566E3AFDE29254536EA2BF /* Pods_WebRTC_sampleTests.framework */; };
+		ED81D4A42579FBF800410C95 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ED81D4A32579FBF800410C95 /* GoogleService-Info.plist */; };
 		EDAF66DE2579F722000B950C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAF66DD2579F722000B950C /* AppDelegate.swift */; };
 		EDAF66E02579F722000B950C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAF66DF2579F722000B950C /* SceneDelegate.swift */; };
 		EDAF66E22579F722000B950C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAF66E12579F722000B950C /* ViewController.swift */; };
@@ -48,6 +49,7 @@
 		C67DD92A37420E8C5AC52E82 /* Pods-WebRTC-sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebRTC-sample.release.xcconfig"; path = "Target Support Files/Pods-WebRTC-sample/Pods-WebRTC-sample.release.xcconfig"; sourceTree = "<group>"; };
 		C7645ECB5B4184721E70950B /* Pods-WebRTC-sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebRTC-sample.debug.xcconfig"; path = "Target Support Files/Pods-WebRTC-sample/Pods-WebRTC-sample.debug.xcconfig"; sourceTree = "<group>"; };
 		DD7DBDF066F9F89B1CA56CF6 /* Pods-WebRTC-sampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebRTC-sampleTests.debug.xcconfig"; path = "Target Support Files/Pods-WebRTC-sampleTests/Pods-WebRTC-sampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		ED81D4A32579FBF800410C95 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		EDAF66DA2579F722000B950C /* WebRTC-sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WebRTC-sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDAF66DD2579F722000B950C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EDAF66DF2579F722000B950C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -103,7 +105,6 @@
 				DD7DBDF066F9F89B1CA56CF6 /* Pods-WebRTC-sampleTests.debug.xcconfig */,
 				972FA14DD12E4C34C1F6A652 /* Pods-WebRTC-sampleTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -140,6 +141,7 @@
 				EDAF66EB2579F725000B950C /* LaunchScreen.storyboard */,
 				EDAF66EE2579F725000B950C /* Info.plist */,
 				EDAF66E62579F722000B950C /* WebRTC_sample.xcdatamodeld */,
+				ED81D4A32579FBF800410C95 /* GoogleService-Info.plist */,
 			);
 			path = "WebRTC-sample";
 			sourceTree = "<group>";
@@ -183,6 +185,7 @@
 				EDAF66D62579F722000B950C /* Sources */,
 				EDAF66D72579F722000B950C /* Frameworks */,
 				EDAF66D82579F722000B950C /* Resources */,
+				2D9617BCBCFCC9200DAF8006 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -220,6 +223,7 @@
 				EDAF66FA2579F725000B950C /* Sources */,
 				EDAF66FB2579F725000B950C /* Frameworks */,
 				EDAF66FC2579F725000B950C /* Resources */,
+				54E0689C9B0B67922752E615 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -279,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDAF66ED2579F725000B950C /* LaunchScreen.storyboard in Resources */,
+				ED81D4A42579FBF800410C95 /* GoogleService-Info.plist in Resources */,
 				EDAF66EA2579F725000B950C /* Assets.xcassets in Resources */,
 				EDAF66E52579F722000B950C /* Main.storyboard in Resources */,
 			);
@@ -301,6 +306,40 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		2D9617BCBCFCC9200DAF8006 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WebRTC-sample/Pods-WebRTC-sample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WebRTC-sample/Pods-WebRTC-sample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WebRTC-sample/Pods-WebRTC-sample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54E0689C9B0B67922752E615 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WebRTC-sample-WebRTC-sampleUITests/Pods-WebRTC-sample-WebRTC-sampleUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WebRTC-sample-WebRTC-sampleUITests/Pods-WebRTC-sample-WebRTC-sampleUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WebRTC-sample-WebRTC-sampleUITests/Pods-WebRTC-sample-WebRTC-sampleUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		7609722612754CC68532BF36 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;

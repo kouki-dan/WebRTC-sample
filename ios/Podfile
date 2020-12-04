@@ -6,6 +6,8 @@ target 'WebRTC-sample' do
   use_frameworks!
 
   # Pods for WebRTC-sample
+  pod 'Firebase/Firestore'
+
 
   target 'WebRTC-sampleTests' do
     inherit! :search_paths
