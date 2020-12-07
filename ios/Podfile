@@ -7,6 +7,7 @@ target 'WebRTC-sample' do
 
   # Pods for WebRTC-sample
   pod 'Firebase/Firestore'
+  pod 'GoogleWebRTC'
 
 
   target 'WebRTC-sampleTests' do

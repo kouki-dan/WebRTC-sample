@@ -57,6 +57,8 @@
                     <connections>
                         <outlet property="createButton" destination="JGz-4w-Ccp" id="eui-oH-oYD"/>
                         <outlet property="joinButton" destination="Khj-O3-J1B" id="I6r-q5-KAM"/>
+                        <outlet property="localVideoView" destination="eTf-Rx-3TJ" id="9I5-us-PMf"/>
+                        <outlet property="remoteVideoView" destination="x7W-w0-Of5" id="Hr2-e7-knl"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
