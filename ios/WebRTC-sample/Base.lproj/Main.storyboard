@@ -42,10 +42,22 @@
                     </view>
                     <navigationItem key="navigationItem" title="WebRTC Sample" id="Shl-er-bPk">
                         <rightBarButtonItems>
-                            <barButtonItem title="Join" id="Khj-O3-J1B"/>
-                            <barButtonItem title="Create" id="JGz-4w-Ccp"/>
+                            <barButtonItem title="Join" id="Khj-O3-J1B">
+                                <connections>
+                                    <action selector="joinRoom:" destination="BYZ-38-t0r" id="mfz-tm-qqo"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem title="Create" id="JGz-4w-Ccp">
+                                <connections>
+                                    <action selector="createRoom:" destination="BYZ-38-t0r" id="Gna-cR-Jrt"/>
+                                </connections>
+                            </barButtonItem>
                         </rightBarButtonItems>
                     </navigationItem>
+                    <connections>
+                        <outlet property="createButton" destination="JGz-4w-Ccp" id="eui-oH-oYD"/>
+                        <outlet property="joinButton" destination="Khj-O3-J1B" id="I6r-q5-KAM"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
